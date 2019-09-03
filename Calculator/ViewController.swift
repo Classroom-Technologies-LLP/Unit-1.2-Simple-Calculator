@@ -16,6 +16,24 @@ class ViewController: UIViewController {
         let z = x + y
         print(z)
     }
+    @IBAction func subButtonTapped(_ sender: Any) {
+        let x = 1
+        let y = 2
+        let z = x - y
+        print(z)
+    }
+    @IBAction func mulButtonTapped(_ sender: Any) {
+        let x = 1
+        let y = 2
+        let z = x * y
+        print(z)
+    }
+    @IBAction func divButtonTapped(_ sender: Any) {
+        let x = 1
+        let y = 2
+        let z = x / y
+        print(z)
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
