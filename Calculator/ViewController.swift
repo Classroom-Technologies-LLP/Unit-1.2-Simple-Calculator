@@ -11,9 +11,9 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBAction func addButtonTapped(_ sender: Any) {
-        let x = 1
-        let y = 2
-        let z = x + y
+        let x: Double = 1
+        let y: Double = 2
+        let z: Double = x + y
         print(z)
     }
     override func viewDidLoad() {
